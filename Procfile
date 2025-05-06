@@ -1,0 +1,1 @@
+web: python weather_mcp_server_api.py
