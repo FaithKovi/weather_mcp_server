@@ -1,10 +1,6 @@
 # Use a slim Python image
 FROM python:3.11-slim
 
-# Set environment variables to avoid .pyc files and buffer output
-ENV PYTHONDONTWRITEBYTECODE=1
-ENV PYTHONUNBUFFERED=1
-
 # Set work directory
 WORKDIR /app
 
